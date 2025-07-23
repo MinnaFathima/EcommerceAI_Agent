@@ -1,4 +1,5 @@
 ## 🛒 E-Commerce AI Chatbot with Sales Analytics
+
 This project is an AI-powered chatbot web application for an e-commerce platform. It allows users to query business metrics like Total Sales, ROAS (Return on Ad Spend), and Highest CPC via natural language and get interactive chart-based insights in response.
 
 # 💻 Features
@@ -36,8 +37,9 @@ Others: dotenv, CORS, body-parser
 ⚙️ Setup Instructions
  1. Clone the repository
 
-git clone https://github.com/yourusername/ecommerce-ai-chatbot.git
-cd ecommerce-ai-chatbot
+git clone https://github.com/MinnaFathima/EcommerceAI_Agent.git
+
+cd ecommerce-ai-agent
 
  2. Install dependencies
 
@@ -49,16 +51,19 @@ Make sure your MySQL credentials in server.js match your setup:
 
 
 const db = mysql.createConnection({
+
   host: 'localhost',
+  
   user: 'root',
+  
   password: '****',
+  
   database: 'ecommerce'
+  
 });
 
 4. Start the server
-bash
-Copy
-Edit
+
 node server.js
 You should see:
 Server is running on port 5000
@@ -67,7 +72,9 @@ Server is running on port 5000
 Open index.html in your browser (you can double-click it or use Live Server in VS Code).
 
 # 🔌 API Endpoints
+
 Endpoint	Description
+
 /api/total-sales	Returns total sales value
 /api/roas	Returns ROAS (Ad Sales / Ad Spent)
 /api/highest-cpc	Returns item with highest CPC
