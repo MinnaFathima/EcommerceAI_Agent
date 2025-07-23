@@ -25,14 +25,23 @@ Others: dotenv, CORS, body-parser
 # 📁 Project Structure
 
 /project-root
+
 │
+
 ├── server.js              # Express server and API routes
+
 ├── .env                   # Environment variables (e.g. PORT)
+
 ├── public/
+
 │   └── index.html         # Frontend UI
+
 ├── script.js              # Handles chatbot logic and chart rendering
+
 ├── package.json
+
 └── README.md              # This file
+
 
 ⚙️ Setup Instructions
  1. Clone the repository
