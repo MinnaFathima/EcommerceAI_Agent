@@ -1,7 +1,7 @@
-##🛒 E-Commerce AI Chatbot with Sales Analytics
+## 🛒 E-Commerce AI Chatbot with Sales Analytics
 This project is an AI-powered chatbot web application for an e-commerce platform. It allows users to query business metrics like Total Sales, ROAS (Return on Ad Spend), and Highest CPC via natural language and get interactive chart-based insights in response.
 
-#💻 Features
+# 💻 Features
 Chat interface for querying e-commerce data
 
 AI responds with relevant metrics
@@ -12,7 +12,7 @@ REST API endpoints powered by Express.js
 
 Data fetched from MySQL database
 
-#🧰 Tech Stack
+# 🧰 Tech Stack
 Frontend: HTML, JavaScript, Chart.js
 
 Backend: Node.js, Express.js
