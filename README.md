@@ -28,19 +28,19 @@ Others: dotenv, CORS, body-parser
 
 │
 
-├── server.js              # Express server and API routes
+├── server.js                                    # Express server and API routes
 
-├── .env                   # Environment variables (e.g. PORT)
+├── .env                                         # Environment variables
 
 ├── public/
 
-│   └── index.html         # Frontend UI
+│   └── index.html                               # Frontend UI
 
-├── script.js              # Handles chatbot logic and chart rendering
+├── script.js                                    # Handles chatbot logic and chart rendering
 
 ├── package.json
 
-└── README.md              # This file
+└── README.md                                     # This file
 
 
 ⚙️ Setup Instructions
